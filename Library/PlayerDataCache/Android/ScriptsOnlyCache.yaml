@@ -1,6 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - AnimContr
     - ChatWindowExampleMobileWeb
     - TextSpeech.SpeechToText
     - TextSpeech.TextToSpeech
@@ -17,6 +18,13 @@ ScriptsOnlyBuild:
     - UnityEngine.XR.ARFoundation.ARPoseDriver
     - UnityEngine.XR.ARFoundation.ARSession
     - UnityEngine.XR.ARFoundation.ARSessionOrigin
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -50,9 +58,19 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 49
       Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 89
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -67,34 +85,38 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12014}
     - Class: 114
-      Script: {instanceID: 12492}
+      Script: {instanceID: 12438}
     - Class: 114
-      Script: {instanceID: 12590}
+      Script: {instanceID: 12494}
     - Class: 114
-      Script: {instanceID: 13526}
+      Script: {instanceID: 12592}
     - Class: 114
-      Script: {instanceID: 13760}
+      Script: {instanceID: 13528}
     - Class: 114
-      Script: {instanceID: 13902}
+      Script: {instanceID: 13762}
     - Class: 114
-      Script: {instanceID: 13932}
+      Script: {instanceID: 13904}
     - Class: 114
-      Script: {instanceID: 13950}
+      Script: {instanceID: 13934}
     - Class: 114
-      Script: {instanceID: 14100}
+      Script: {instanceID: 13952}
     - Class: 114
-      Script: {instanceID: 14140}
+      Script: {instanceID: 14102}
     - Class: 114
-      Script: {instanceID: 14222}
+      Script: {instanceID: 14142}
     - Class: 114
-      Script: {instanceID: 14288}
+      Script: {instanceID: 14224}
     - Class: 114
-      Script: {instanceID: 14310}
+      Script: {instanceID: 14290}
     - Class: 114
-      Script: {instanceID: 14408}
+      Script: {instanceID: 14312}
+    - Class: 114
+      Script: {instanceID: 14410}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
+      Script: {instanceID: 0}
+    - Class: 137
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -317,6 +339,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: AndroidDebug
+  - hash:
+      serializedVersion: 2
+      Hash: 659d6ceab26f9e4237abaaf29249f293
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AnimContr
   - hash:
       serializedVersion: 2
       Hash: aba7b2852ef61d175dd9602e7723d5e5
@@ -818,4 +846,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/SceneExampleMobileWeb.unity
-  playerPath: C:/MyFiles/BVM-chatbot-master/bvmBuddy.apk
+  playerPath: C:/MyFiles/BVMBuddy/v.apk
